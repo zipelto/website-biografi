@@ -1,0 +1,35 @@
+
+.nav a{
+color:white;
+text-decoration:none;
+margin:0 20px;
+font-weight:bold;
+}
+
+.nav{
+background-color:#2563EB;
+padding:15px;
+text-align:center;
+position: sticky;
+}
+
+section p{
+background-color: white;
+border-radius: 10px;
+border: 50px;
+}
+
+.kotika-home{
+   width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 100px;
+    border: 5px solid var(--primary-color);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    
+}
+
+.nama-kotika{
+    position: relative;
+    left: 459px;
+}
