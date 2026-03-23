@@ -1,10 +1,17 @@
 
 .nav-link{
-    background-color:#2563EB;
+    
     padding:15px;
     display: flex;
     justify-content: center;
     gap: 40px;
+ position: sticky;
+top: 0;
+background: rgba(37, 99, 235, 0.85);
+padding: 15px;
+z-index: 1000;
+opacity: 20;
+
 }
 
 .nav-link a{
@@ -22,12 +29,16 @@ section{
 }
 
 
-.kotika-home{
+.kotika-foto{
     width: 200px;
     height: 200px;
     border-radius: 50%;
     margin-bottom: 30px;
     border: 5px solid black;
+    position: relative;
+   
+    display: inline-block;
+    background-color: wheat;
 }
 
 
@@ -52,6 +63,7 @@ section{
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+    background: ;
 }
 
 
@@ -77,4 +89,44 @@ section{
 
 section p{
     text-align: center;
+}
+
+.text-kelompok-4{
+    text-align: center;
+}
+
+.pertama{
+    
+
+color: white;
+border-radius:15px;
+height: 500px;
+}
+
+.home{
+    text-align: center;
+    
+}
+
+.pp{
+   color: #374151;
+}
+
+body{
+    background: linear-gradient(to right, #2563eb, #60a5fa);
+}
+
+.section-pembuat{
+background: linear-gradient(
+to right,
+rgba(37, 99, 235, 0.85),
+rgba(96, 165, 250, 0.85)
+);
+}
+
+.section-prestasi{
+background: linear-gradient(to right, #f8fafc, #e2e8f0);
+border-radius: 15px;
+padding: 30px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
